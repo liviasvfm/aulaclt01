@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lívia Frazão</title>
+    <link rel="stylesheet" href="estilo.css">
+
 </head>
 
 
@@ -18,15 +20,20 @@
             alt="foto.jpg" width="200" height="200">
     </center>
 
+    <main>
+        <section> 
+            <h2>Sobre Mim</h2>
+            <p>
+        </section>
 
     <p>
         Estudante de Análise e Desenvolvimento de Sistemas da Faculdade Senac, tenho interesse em atuar na área de
         desenvolvimento de software.<br>
+        </p>
         <strong>Telefone:</strong> (81)99353-4349<br>
         <strong>Email:</strong> liviasvfm@gmail.com<br>
         <strong>Endereço:</strong><br>
         <strong><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.963497457706!2d-34.954123!3d-8.083456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1e3d2f1a5b1%3A0x123456789abcdef!2sRua%20Ernesto%20Nazareth%2C%20306%20-%20Areias%2C%20Recife%20-%20PE%2C%2050860-260!5e0!3m2!1spt-BR!2sbr!4v1743770611895!5m2!1spt-BR!2sbr" width="800" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></strong>
-
         <center>
             <strong>
                 <a href="https://www.linkedin.com/in/liviafrazaoo/" target="_blank">
@@ -51,6 +58,7 @@
 </p>
 <hr>
 <p>
+    <section>
 <h2>Formação Acadêmica</h2>
 <ul>
     <li>Análise e Desenvolvimento de Sistemas</li>
@@ -58,6 +66,7 @@
 
     <li>ABA Education </li>
     <d>Língua Inglesa</d>
+    </section>
 
 </ul>
 
@@ -65,6 +74,7 @@
 <hr>
 <p>
 </p>
+<section>
 <h3>Experiência Profissional</h3>
 <ul>
 
@@ -73,11 +83,14 @@
     </strong>
     <d>Raia Drogasil</d>
     <d>Período: 2020-2023</d>
+</section> 
 
 </ul>
 <hr>
 <ul>
+   
     <h3>Habilidades</h3>
+    
     <strong>
         <li>Soft Skills (habilidades comportamentais)</li>
     </strong>
@@ -88,6 +101,63 @@
     
 </ul>
 <hr>
+
+<h2>Formulário de Contato</h2>
+<form action="#" method="post" enctype="multipart/form-data">
+  <label for="nome">Nome:</label>
+  <input type="text" id="nome" name="nome" required><br><br>
+
+  <label for="sobrenome">Sobrenome:</label>
+  <input type="text" id="sobrenome" name="sobrenome" required><br><br>
+
+  <label for="telefone">Telefone:</label>
+  <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" pattern="\(\d{2}\) \d{5}-\d{4}" required><br><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="mensagem">Mensagem:</label><br>
+  <textarea id="mensagem" name="mensagem" rows="5" cols="30" required></textarea><br><br>
+
+  <label for="lingua">Língua aplicada:</label>
+  <select id="lingua" name="lingua">
+    <option>Inglês</option>
+    <option>Espanhol</option>
+    <option>Francês</option>
+    <option>Português (pt-br)</option>
+  </select><br><br>
+
+  <label for="arquivo">Protótipo (PDF, DOC, DOCX, JPEG, PNG):</label>
+  <input type="file" id="arquivo" name="arquivo" accept=".pdf,.doc,.docx,.jpeg,.jpg,.png" required><br><br>
+
+  <label>Linguagens preferidas:</label><br>
+  <input type="checkbox" name="linguagens[]" value="HTML"> HTML
+  <input type="checkbox" name="linguagens[]" value="CSS"> CSS
+  <input type="checkbox" name="linguagens[]" value="JavaScript"> JavaScript
+  <input type="checkbox" name="linguagens[]" value="Python"> Python<br><br>
+
+  <label>Banco de Dados recomendado:</label><br>
+  <input type="radio" name="banco" value="MySQL" required> MySQL
+  <input type="radio" name="banco" value="MongoDB"> MongoDB
+  <input type="radio" name="banco" value="PostgreSQL"> PostgreSQL<br><br>
+
+  <label for="turno">Turno preferido para reuniões:</label>
+  <select id="turno" name="turno">
+    <option>Manhã</option>
+    <option>Tarde</option>
+    <option>Noite</option>
+  </select><br><br>
+
+  <label for="horario">Melhor horário:</label>
+  <input type="time" id="horario" name="horario"><br><br>
+
+  <label for="data">Previsão de entrega:</label>
+  <input type="date" id="data" name="data"><br><br>
+
+  <input type="reset" value="Limpar">
+  <input type="submit" value="Enviar">
+</form>
+
 
 
 <footer style= "text-align: center;"

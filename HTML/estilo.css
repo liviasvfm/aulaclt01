@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: #3f51b5;
+    color: white;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.redes img {
+    margin: 0 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #3f51b5;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
